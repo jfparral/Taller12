@@ -61,7 +61,8 @@ void * buscador(void* ctrl)
    	}
 		
 
-   	printf("Resultados encontrados: \nPalabra: %s - > Cantidad: %d\nPalabra: %s - > Cantidad: %d\nPalabra: %s - > Cantidad: %d\n",*(palabras), *(contadas), *(palabras+1), *(contadas+1), *(palabras+2), *(contadas+2));
+   	printf("Resultados encontrados: \nPalabra: %s  Numero: %d\nPalabra: %s  Numero: %d\nPalabra: %s  Numero: %d\n",
+       *(palabras), *(contadas), *(palabras+1), *(contadas+1), *(palabras+2), *(contadas+2));
 
 	
 	pthread_mutex_unlock(&mutex);
